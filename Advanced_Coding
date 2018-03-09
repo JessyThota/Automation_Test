@@ -1,0 +1,3 @@
+KL = [NL.append(L) for i in L if len(NL)==0]
+print(NL)
+#Define L and NL 

@@ -8,6 +8,6 @@ data = {
         a: 4
     }
 }
-
+# keys are not sorted by default, you would have to add the sort_keys=True argument to json.dumps()
 json_data = json.dumps(data, sort_keys=True)
 print(json_data)

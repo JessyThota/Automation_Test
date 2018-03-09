@@ -1,0 +1,13 @@
+import json
+
+data = {
+    a: 0,
+    b: 9.6,
+    c: "Hello World",
+    d: {
+        a: 4
+    }
+}
+
+json_data = json.dumps(data, sort_keys=True)
+print(json_data)

@@ -1,0 +1,60 @@
+L = ['yellow', 'red', 'blue', 'green', 'black']
+
+#Slicing
+
+print L[0]
+print l[0:1]
+print L[1:3]
+print L[-1]
+print[1:-1]
+
+#Length 
+print len(L) # Number of items in List 
+
+#Sort
+M = sorted (L)
+print (M)
+
+#Append
+L.append('pink')
+print (L)
+
+#Insert 
+L.insert(0, "white")
+
+#Extend
+L2 = ["a","b","f"]
+L.extend(L2)
+
+#Remove
+L.remove("f")
+
+#Delete 
+Del.L[0]
+
+#pop
+L.pop()
+L.pop(1)
+
+#reverse
+L.reverse()
+
+#count 
+L.count(1)
+L.count('a')
+
+#in 
+if 'red' in L:
+    print ("list contains red")
+    
+else:
+    print("list doesnt contain red")
+    
+#for 
+for item in L:
+    print (item)
+
+L = ['red', 'blue', 'green']
+for col in L:
+    print (col)
+

@@ -1,3 +1,6 @@
 KL = [NL.append(L) for i in L if len(NL)==0]
 print(NL)
 #Define L and NL 
+
+new_range = [i * i for i in range(5) if i % 2 == 0]
+print (new_range)
